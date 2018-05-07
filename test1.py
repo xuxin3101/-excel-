@@ -1,6 +1,5 @@
 import openpyxl
-import os
-import operator
+
 class data(object) :
     yearweek=0
     cd=0
