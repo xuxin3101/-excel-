@@ -22,7 +22,7 @@ class data(object) :
     def __init__(self):
         self=self
 
-os.chdir('d:/')
+#os.chdir('d:/')
 wb = openpyxl.load_workbook('资料.xlsx')
 sheetnames=wb.sheetnames
 print(sheetnames)

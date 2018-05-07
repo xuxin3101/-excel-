@@ -22,7 +22,7 @@ class data(object) :
         self.total_budget=0
 
 
-os.chdir('d:/')
+#os.chdir('D:/')
 wb = openpyxl.load_workbook('资料.xlsx')
 sheetnames=wb.sheetnames
 print(sheetnames)
